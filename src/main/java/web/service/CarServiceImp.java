@@ -17,7 +17,6 @@ public class CarServiceImp implements CarService {
        cars.add(new Car("Mercedes C-Class", "White", 2023));
    }
 
-
     @Override
     public List<Car> getListCar( Integer countCars) {
 
