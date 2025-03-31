@@ -1,15 +1,15 @@
 package web.model;
 
 public class Car {
-    String model;
-    int year;
-    String color;
+    private String model;
+    private int year;
+    private String color;
 
     public String getModel() {
         return model;
     }
 
-    public Car(String model, String color,int year) {
+    public Car(String model, String color, int year) {
         this.model = model;
         this.year = year;
         this.color = color;
